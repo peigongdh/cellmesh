@@ -3,12 +3,14 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/davyxu/cellmesh/tool/protogen/gengo"
+	"os"
+
 	"github.com/davyxu/protoplus/gen"
 	"github.com/davyxu/protoplus/model"
 	_ "github.com/davyxu/protoplus/msgidutil"
 	"github.com/davyxu/protoplus/util"
-	"os"
+
+	"github.com/davyxu/cellmesh/tool/protogen/gengo"
 )
 
 var (

@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/davyxu/cellmesh/discovery/memsd/model"
 	"os"
 	"time"
+
+	"github.com/davyxu/cellmesh/discovery/memsd/model"
 )
 
 func loadPersistFile(fileName string) {

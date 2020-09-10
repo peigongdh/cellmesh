@@ -4,10 +4,11 @@
 package proto
 
 import (
+	"reflect"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/codec"
 	_ "github.com/davyxu/cellnet/codec/protoplus"
-	"reflect"
 )
 
 // Make compiler import happy

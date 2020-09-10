@@ -2,11 +2,12 @@ package discovery
 
 import (
 	"fmt"
-	"github.com/davyxu/cellnet/util"
 	"reflect"
+
+	"github.com/davyxu/cellnet/util"
 )
 
-//KV中的Value最大不超过512K,
+// KV中的Value最大不超过512K,
 const (
 	// 不能直接保存二进制，底层用Json转base64，base64的二进制比原二进制要大最终二进制不到512K就会达到限制
 	PackedValueSize = 300 * 1024

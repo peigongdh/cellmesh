@@ -1,12 +1,12 @@
 package gengo
 
 import (
-	"github.com/ahmetb/go-linq"
-	"github.com/davyxu/protoplus/gen"
-	"github.com/davyxu/protoplus/model"
 	"sort"
 	"strings"
 	"text/template"
+
+	"github.com/davyxu/protoplus/gen"
+	"github.com/davyxu/protoplus/model"
 )
 
 var FuncMap = template.FuncMap{}

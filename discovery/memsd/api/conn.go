@@ -1,13 +1,15 @@
 package memsd
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
-	"github.com/davyxu/cellmesh/discovery/memsd/model"
-	"github.com/davyxu/cellmesh/discovery/memsd/proto"
+	"time"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/peer"
 	"github.com/davyxu/cellnet/proc"
-	"time"
+
+	"github.com/davyxu/cellmesh/discovery"
+	"github.com/davyxu/cellmesh/discovery/memsd/model"
+	"github.com/davyxu/cellmesh/discovery/memsd/proto"
 )
 
 func (self *memDiscovery) clearCache() {

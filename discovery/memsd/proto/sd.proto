@@ -1,99 +1,233 @@
-enum ResultCode
-{
+
+enum ResultCode {
     Result_OK = 0
     Result_NotExists
-	Result_AuthRequire
+    Result_AuthRequire
 }
 
 
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct SetValueREQ{
-	Key string
-	Value bytes
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+SetValueREQ
+{
+Key
+string
+Value
+bytes
 
-	SvcName string
+SvcName
+string
 }
 
 
-[AutoMsgID Codec:"protoplus"]
-struct SetValueACK{
-    Code ResultCode
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+SetValueACK
+{
+Code
+ResultCode
 }
 
 
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct GetValueREQ{
-	Key string
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+GetValueREQ
+{
+Key
+string
 }
 
 
-[AutoMsgID Codec:"protoplus"]
-struct GetValueACK{
-    Code ResultCode
-	Key string
-	Value bytes
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+GetValueACK
+{
+Code
+ResultCode
+Key
+string
+Value
+bytes
 }
 
 
-
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct DeleteValueREQ{
-	Key string
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+DeleteValueREQ
+{
+Key
+string
 }
 
 
-[AutoMsgID Codec:"protoplus"]
-struct DeleteValueACK{
-    Code ResultCode
-	Key string
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+DeleteValueACK
+{
+Code
+ResultCode
+Key
+string
 
 
 }
 
 
-[AutoMsgID Codec:"protoplus"]
-struct ValueChangeNotifyACK{
-	Key string
-	Value bytes
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+ValueChangeNotifyACK
+{
+Key
+string
+Value
+bytes
 
-	SvcName string
+SvcName
+string
 }
 
-[AutoMsgID Codec:"protoplus"]
-struct ValueDeleteNotifyACK{
-	Key string
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+ValueDeleteNotifyACK
+{
+Key
+string
 
-	SvcName string
-}
-
-
-
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct AuthREQ{
-	Token string
-}
-
-[AutoMsgID Codec:"protoplus"]
-struct AuthACK{
-	Token string
-}
-
-
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct ClearSvcREQ{
-}
-
-[AutoMsgID Codec:"protoplus"]
-struct ClearSvcACK{
-	Code ResultCode
+SvcName
+string
 }
 
 
-[AutoMsgID Codec:"protoplus" Service: "memsd"]
-struct ClearKeyREQ{
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+AuthREQ
+{
+Token
+string
 }
 
-[AutoMsgID Codec:"protoplus"]
-struct ClearKeyACK{
-	Code ResultCode
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+AuthACK
+{
+Token
+string
+}
+
+
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+ClearSvcREQ
+{
+}
+
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+ClearSvcACK
+{
+Code
+ResultCode
+}
+
+
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+Service
+:
+"memsd"
+]
+struct
+ClearKeyREQ
+{
+}
+
+[
+AutoMsgID
+Codec
+:
+"protoplus"
+]
+struct
+ClearKeyACK
+{
+Code
+ResultCode
 }

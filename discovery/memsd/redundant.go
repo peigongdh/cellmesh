@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/davyxu/cellmesh/discovery/memsd/model"
 	"time"
+
+	"github.com/davyxu/cellmesh/discovery/memsd/model"
 )
 
 // 移除token丢失的values

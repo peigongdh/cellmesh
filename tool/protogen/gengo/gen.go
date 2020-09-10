@@ -2,6 +2,7 @@ package gengo
 
 import (
 	"fmt"
+
 	"github.com/davyxu/protoplus/codegen"
 	"github.com/davyxu/protoplus/gen"
 )

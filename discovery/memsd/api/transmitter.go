@@ -1,9 +1,10 @@
 package memsd
 
 import (
-	"github.com/davyxu/cellnet"
 	"io"
 	"net"
+
+	"github.com/davyxu/cellnet"
 )
 
 type TCPMessageTransmitter struct {

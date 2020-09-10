@@ -1,9 +1,10 @@
 package meshutil
 
 import (
-	"github.com/davyxu/golog"
 	"strconv"
 	"strings"
+
+	"github.com/davyxu/golog"
 )
 
 var log = golog.New("meshutil")

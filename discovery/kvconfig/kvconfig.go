@@ -1,8 +1,9 @@
 package kvconfig
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
 	"reflect"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 func doRaw(d discovery.Discovery, key string, defaultValue, ret interface{}) {

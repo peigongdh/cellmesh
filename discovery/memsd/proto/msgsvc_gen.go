@@ -3,8 +3,9 @@
 package proto
 
 import (
-	"github.com/davyxu/protoplus/proto"
 	"unsafe"
+
+	"github.com/davyxu/protoplus/proto"
 )
 
 var (

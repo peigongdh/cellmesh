@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
+
 	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellmesh/discovery/memsd/api"
 	"github.com/davyxu/cellmesh/discovery/memsd/model"
-	"os"
 )
 
 var (

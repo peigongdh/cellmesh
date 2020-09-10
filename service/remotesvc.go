@@ -1,8 +1,9 @@
 package service
 
 import (
-	"github.com/davyxu/cellnet"
 	"sync"
+
+	"github.com/davyxu/cellnet"
 )
 
 type RemoteServiceContext struct {

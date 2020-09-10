@@ -2,6 +2,7 @@ package memsd
 
 import (
 	"fmt"
+
 	"github.com/davyxu/cellmesh/discovery/memsd/proto"
 )
 

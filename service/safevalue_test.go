@@ -1,17 +1,18 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
-	memsd "github.com/davyxu/cellmesh/discovery/memsd/api"
 	"reflect"
 	"testing"
+
+	"github.com/davyxu/cellmesh/discovery"
+	memsd "github.com/davyxu/cellmesh/discovery/memsd/api"
 )
 
 func TestSafeGetValue(t *testing.T) {
 
 	var origin []byte
 	for i := 0; i < 12; i++ {
-		//origin = append(origin, byte(rand.Int31n(127)))
+		// origin = append(origin, byte(rand.Int31n(127)))
 		origin = append(origin, byte(i))
 	}
 

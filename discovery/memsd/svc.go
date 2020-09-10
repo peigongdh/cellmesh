@@ -1,15 +1,17 @@
 package main
 
 import (
-	"github.com/davyxu/cellmesh/discovery/memsd/api"
-	"github.com/davyxu/cellmesh/discovery/memsd/model"
-	"github.com/davyxu/cellmesh/discovery/memsd/proto"
-	"github.com/davyxu/cellmesh/service"
+	"strings"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/peer"
 	"github.com/davyxu/cellnet/proc"
 	"github.com/davyxu/golog"
-	"strings"
+
+	"github.com/davyxu/cellmesh/discovery/memsd/api"
+	"github.com/davyxu/cellmesh/discovery/memsd/model"
+	"github.com/davyxu/cellmesh/discovery/memsd/proto"
+	"github.com/davyxu/cellmesh/service"
 )
 
 var log = golog.New("memsd")

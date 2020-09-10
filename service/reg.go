@@ -1,10 +1,12 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
+	"strconv"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/util"
-	"strconv"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 type peerListener interface {

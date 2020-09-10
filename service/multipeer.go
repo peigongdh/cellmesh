@@ -1,10 +1,12 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
+	"sync"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/peer"
-	"sync"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 // 一类服务发起多个连接(不是同一地址), 比如 login1 login2

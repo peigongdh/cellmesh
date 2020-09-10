@@ -1,16 +1,18 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
-	"github.com/davyxu/cellmesh/discovery/memsd/api"
-	"github.com/davyxu/cellmesh/util"
-	"github.com/davyxu/cellnet/msglog"
-	"github.com/davyxu/cellnet/util"
-	"github.com/davyxu/golog"
 	"os"
 	"os/signal"
 	"strings"
 	"syscall"
+
+	"github.com/davyxu/cellnet/msglog"
+	"github.com/davyxu/cellnet/util"
+	"github.com/davyxu/golog"
+
+	"github.com/davyxu/cellmesh/discovery"
+	"github.com/davyxu/cellmesh/discovery/memsd/api"
+	"github.com/davyxu/cellmesh/util"
 )
 
 func Init(name string) {

@@ -1,9 +1,10 @@
 package memsd
 
 import (
+	"strings"
+
 	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellmesh/discovery/memsd/proto"
-	"strings"
 )
 
 type Option struct {

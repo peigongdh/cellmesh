@@ -3,11 +3,13 @@ package memsd
 import (
 	"encoding/json"
 	"errors"
+	"time"
+
+	"github.com/davyxu/cellnet/util"
+
 	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellmesh/discovery/memsd/model"
 	"github.com/davyxu/cellmesh/discovery/memsd/proto"
-	"github.com/davyxu/cellnet/util"
-	"time"
 )
 
 func (self *memDiscovery) Register(svc *discovery.ServiceDesc) (retErr error) {

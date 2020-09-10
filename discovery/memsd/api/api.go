@@ -1,10 +1,12 @@
 package memsd
 
 import (
+	"sync"
+
+	"github.com/davyxu/cellnet"
+
 	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellmesh/discovery/memsd/model"
-	"github.com/davyxu/cellnet"
-	"sync"
 )
 
 type notifyContext struct {

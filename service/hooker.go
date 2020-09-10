@@ -1,11 +1,12 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellnet"
 	_ "github.com/davyxu/cellnet/peer/tcp"
 	"github.com/davyxu/cellnet/proc"
 	"github.com/davyxu/cellnet/proc/tcp"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 // 服务互联消息处理

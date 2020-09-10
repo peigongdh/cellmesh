@@ -1,8 +1,9 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellnet"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 type DiscoveryOption struct {
@@ -28,7 +29,7 @@ func DiscoveryService(tgtSvcName string, opt DiscoveryOption, peerCreator func(M
 				Filter_MatchSvcGroup(opt.MatchSvcGroup),
 				func(desc *discovery.ServiceDesc) interface{} {
 
-					//log.Infof("found '%s' address '%s' ", tgtSvcName, desc.Address())
+					// log.Infof("found '%s' address '%s' ", tgtSvcName, desc.Address())
 
 					prePeer := multiPeer.GetPeer(desc.ID)
 

@@ -3,10 +3,11 @@ package memsd
 import (
 	"encoding/binary"
 	"errors"
+	"io"
+
 	"github.com/davyxu/cellnet"
 	"github.com/davyxu/cellnet/codec"
 	"github.com/davyxu/cellnet/util"
-	"io"
 )
 
 var (

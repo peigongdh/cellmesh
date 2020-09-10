@@ -1,9 +1,10 @@
 package service
 
 import (
+	"strings"
+
 	"github.com/davyxu/cellmesh/discovery"
 	"github.com/davyxu/cellmesh/util"
-	"strings"
 )
 
 type MatchRule struct {

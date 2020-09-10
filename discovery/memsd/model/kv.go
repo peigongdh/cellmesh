@@ -2,9 +2,10 @@ package model
 
 import (
 	"encoding/json"
-	"github.com/davyxu/cellmesh/discovery"
 	"io"
 	"sort"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 type ValueMeta struct {

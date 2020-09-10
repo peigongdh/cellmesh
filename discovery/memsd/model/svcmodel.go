@@ -1,9 +1,11 @@
 package model
 
 import (
-	"github.com/davyxu/cellmesh/util"
-	"github.com/davyxu/cellnet"
 	"strings"
+
+	"github.com/davyxu/cellnet"
+
+	"github.com/davyxu/cellmesh/util"
 )
 
 const (

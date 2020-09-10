@@ -1,10 +1,12 @@
 package memsd
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
-	_ "github.com/davyxu/cellnet/peer/tcp"
 	"testing"
 	"time"
+
+	_ "github.com/davyxu/cellnet/peer/tcp"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 func TestAPI(t *testing.T) {

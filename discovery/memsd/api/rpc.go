@@ -2,10 +2,11 @@ package memsd
 
 import (
 	"errors"
-	"github.com/davyxu/cellnet"
 	"reflect"
 	"sync"
 	"time"
+
+	"github.com/davyxu/cellnet"
 )
 
 var (

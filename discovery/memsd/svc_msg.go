@@ -1,10 +1,12 @@
 package main
 
 import (
+	"strconv"
+
+	"github.com/davyxu/cellnet"
+
 	"github.com/davyxu/cellmesh/discovery/memsd/model"
 	"github.com/davyxu/cellmesh/discovery/memsd/proto"
-	"github.com/davyxu/cellnet"
-	"strconv"
 )
 
 func init() {

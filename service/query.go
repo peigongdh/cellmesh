@@ -1,8 +1,9 @@
 package service
 
 import (
-	"github.com/davyxu/cellmesh/discovery"
 	"sort"
+
+	"github.com/davyxu/cellmesh/discovery"
 )
 
 type QueryServiceOp int
